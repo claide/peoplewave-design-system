@@ -26,7 +26,7 @@
     <div class="pwave-docs-header">
       <div class="container">
         <h1>Peoplewave design system</h1>
-        <p>Core design ins using the bootstrap 3 css framework</p>
+        <p>Core design is using the bootstrap 3 css framework.</p>
         <p><a class="btn btn-primary" href="https://peoplewave.co/" role="button">Visit our site</a></p>
       </div>
     </div>
@@ -36,12 +36,40 @@
 
     <div class="container">
       <div class="row">
+       
         <div class="col-md-9">
           <div class="pwave-doc-section">
             <h1 class="page-header">Typography and Texts</h1>
-            <p>Peoplewave uses Regular and Bold <a href="https://fonts.google.com/specimen/Lato">Lato</a> font.</p>
+            <p>
+              Peoplewave uses Regular and Bold <a href="https://fonts.google.com/specimen/Lato">Lato</a> font,
+              and body font-size should be 14px in default.
+            </p>
+            <div class="card">
+              <div class="card-content">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>Lato Regular</p>
+                    <p>
+                      The five boxing wizards jump quickly.
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>Lato Bold</p>
+                    <p class="is-bold">
+                      The five boxing wizards jump quickly.
+                    </p>
+                  </div>
+                </div>
+                <hr>
+                <p>
+                  HTML heading are the same as bootstrap's default from <code>h1</code> to <code>h6</code>.
+                </p>
+                <h1>H1. Peoplewave heading</h1> 
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="col-md-3">
   
         </div>
@@ -60,7 +88,7 @@
     anchors.options = {
       placement: 'left'
     };
-    anchors.add('h1');
+    anchors.add('.page-header');
   </script>
 </body>
 </html>
