@@ -3,3 +3,12 @@ body {
   color: peoplewave-color('foreground');
   font-family: $font-family;
 }
+
+.pwave-docs-header {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 24px;
+  text-align: left;
+  background: peoplewave-color('primary');
+  color: peoplewave-color('white');
+}

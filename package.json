@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "anchor-js": "^4.1.1",
     "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {
@@ -11,7 +12,8 @@
     "nodemon": "^1.18.3"
   },
   "scripts": {
-    "build-css": "node-sass --include-path scss assets/scss/style.scss   public/css/style.css"
+    "build-css": "node-sass --include-path scss assets/scss/style.scss   public/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "keywords": [],
   "author": "",

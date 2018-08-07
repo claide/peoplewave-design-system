@@ -10,9 +10,57 @@
 </head>
 <body>
 
-  <div class="container">
-    <h1>hello world!</h1>
-  </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">
+          Peoplewave Design System
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main-content">
+
+    <!-- Begin jumbotron -->
+    <div class="pwave-docs-header">
+      <div class="container">
+        <h3>Peoplewave design systems</h3>
+        <p>...</p>
+        <p><a class="btn btn-primary" href="https://peoplewave.co/" role="button">Visit our site</a></p>
+      </div>
+    </div>
+    <!-- End jumbotron -->
+
+    <!-- Begin docs -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="pwave-doc-section">
+            <h1 class="page-header">Typography and Texts</h1>
+            <p>Peoplewave uses Regular and Bold <a href="https://fonts.google.com/specimen/Lato">Lato</a> font.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
   
+        </div>
+      </div>
+    </div>
+
+    <!-- End docs -->
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js"></script>
+  <script>
+    anchors.options = {
+      placement: 'left'
+    };
+    anchors.add('h1');
+  </script>
 </body>
 </html>
