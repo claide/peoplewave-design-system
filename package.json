@@ -1,0 +1,19 @@
+{
+  "name": "peoplewave-style-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/scss/style.scss   public/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
