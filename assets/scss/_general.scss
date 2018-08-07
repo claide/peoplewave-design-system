@@ -9,6 +9,13 @@ body {
   padding-bottom: 60px;
   font-size: 24px;
   text-align: left;
-  background: peoplewave-color('primary');
+  background: peoplewave-color('foreground');
   color: peoplewave-color('white');
+}
+
+a {
+  color: peoplewave-color('primary');
+  &:hover {
+    color: peoplewave-color('primary');
+  }
 }

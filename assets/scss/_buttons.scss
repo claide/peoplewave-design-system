@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: peoplewave-color('primary');
+  color: peoplewave-color('foreground');
+  border-color: peoplewave-color('primary');
+
+  &:hover {
+    background-color: peoplewave-color('accent');
+    border-color: peoplewave-color('accent');
+    color: #272727;
+    outline: none;
+  }
+}
+
+// .btn-default {
+
+// }

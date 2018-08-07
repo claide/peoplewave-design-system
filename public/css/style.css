@@ -2,6 +2,20 @@
 .navbar {
   margin-bottom: 0; }
 
+.btn {
+  border-radius: 30px;
+  font-weight: bold; }
+
+.btn-primary {
+  background: #f2a727;
+  color: #272727;
+  border-color: #f2a727; }
+  .btn-primary:hover {
+    background-color: #ffc858;
+    border-color: #ffc858;
+    color: #272727;
+    outline: none; }
+
 body {
   font-size: 14px;
   color: #272727;
@@ -12,5 +26,10 @@ body {
   padding-bottom: 60px;
   font-size: 24px;
   text-align: left;
-  background: #f2a727;
+  background: #272727;
   color: #FDFEFD; }
+
+a {
+  color: #f2a727; }
+  a:hover {
+    color: #f2a727; }
