@@ -4,30 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Peoplewave Style Guide v2</title>
+  <title>Peoplewave Style Guide</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
-
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/">
-          Peoplewave Design System
-        </a>
-      </div>
-    </div>
-  </nav>
 
   <div class="main-content">
 
     <!-- Begin jumbotron -->
     <div class="pwave-docs-header">
       <div class="container">
-        <h1>Peoplewave design system</h1>
-        <p>Core design is using the bootstrap 3 css framework.</p>
-        <p><a class="btn btn-primary" href="https://peoplewave.co/" role="button">Visit our site</a></p>
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Peoplewave UI Style Guide</h1>
+          </div>
+          <div class="col-md-6">
+            <img src="/public/images/peoplewave-logo.png" alt="peoplewave" class="img-responsive pwave-logo">
+          </div>
+        </div>
       </div>
     </div>
     <!-- End jumbotron -->
@@ -36,35 +31,69 @@
 
     <div class="container">
       <div class="row">
-       
         <div class="col-md-9">
           <div class="pwave-doc-section">
-            <h1 class="page-header">Typography and Texts</h1>
-            <p>
-              Peoplewave uses Regular and Bold <a href="https://fonts.google.com/specimen/Lato">Lato</a> font,
-              and body font-size should be 14px in default.
-            </p>
-            <div class="card">
-              <div class="card-content">
-                <div class="row">
-                  <div class="col-md-6">
-                    <p>Lato Regular</p>
-                    <p>
-                      The five boxing wizards jump quickly.
-                    </p>
-                  </div>
-                  <div class="col-md-6">
-                    <p>Lato Bold</p>
-                    <p class="is-bold">
-                      The five boxing wizards jump quickly.
-                    </p>
-                  </div>
-                </div>
-                <hr>
-                <p>
-                  HTML heading are the same as bootstrap's default from <code>h1</code> to <code>h6</code>.
+            <h3 class="page-header">Typography and Texts</h3>
+            <h1 class="pb-10">Lato (Google font)</h1>
+            <div class="row">
+              <div class="col-md-6">
+                <p>Normal 400</p>
+                <p class="is-bold">Bold 700</p>
+                <p class="pwave-alphabet">
+                  ABCDEFGHIJKLMNOPQRSTUVWXYZ
                 </p>
-                <h1>H1. Peoplewave heading</h1> 
+                <p class="pwave-alphabet">
+                  abcdefghijklmnopqrstuvwxyz
+                </p>
+                <p class="pwave-alphabet">
+                  1234567890-=_+*&$#@!";:,.<>()
+                </p>
+                <p class="pt-15">
+                  font-family: 'Lato', sans-serif;
+                </p>
+                <p>
+                  letter-spacing: 1px;
+                </p>
+              </div>
+              <div class="col-md-6">
+                <h1>h1 Heading 36px</h1>
+                <h2>h2 Heading 30px</h2>
+                <h3 class="pb-15">h3 Heading 24px</h3>
+                <p>
+                  A mad boxer shot a quick, gloved jab to the jaw of his dizzy opponent.
+                </p>
+              </div>
+            </div>
+
+            <h3 class="page-header">Colours</h3>
+            <div class="pwave-color-container">
+              <div class="pwave-color-item">
+                <div class="color-pallete bg-primary"></div>
+                <div class="text-center pt-10">
+                  <p>#f2a727</p>
+                  <p>primary</p>
+                </div>
+              </div>
+              <div class="pwave-color-item">
+                <div class="color-pallete bg-accent"></div>
+                <div class="text-center pt-10">
+                  <p>#ffc858</p>
+                  <p>accent</p>
+                </div>
+              </div>
+              <div class="pwave-color-item">
+                <div class="color-pallete bg-secondary"></div>
+                <div class="text-center pt-10">
+                  <p>#f25f00</p>
+                  <p>secondary</p>
+                </div>
+              </div>
+              <div class="pwave-color-item">
+                <div class="color-pallete bg-foreground"></div>
+                <div class="text-center pt-10">
+                  <p>#272727</p>
+                  <p>foreground</p>
+                </div>
               </div>
             </div>
           </div>

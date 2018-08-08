@@ -2,6 +2,7 @@ body {
   font-size: 14px;
   color: peoplewave-color('foreground');
   font-family: $font-family;
+  letter-spacing: 1px;
 }
 
 .pwave-docs-header {
@@ -13,9 +14,51 @@ body {
   color: peoplewave-color('white');
 }
 
+.pwave-doc-section {
+  padding-bottom: 3em;
+}
+
 a {
   color: peoplewave-color('primary');
   &:hover {
     color: peoplewave-color('primary');
+    text-decoration: none;
+  }
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.heading-sample {
+
+  .inline {
+    padding-right: 10px;
+  }
+}
+
+.pwave-logo {
+  float: right;
+  display: inline-block;
+  max-width: 105px;
+}
+
+.pwave-alphabet {
+  letter-spacing: 5px;
+}
+
+.pwave-color-container {
+  display: inline-block;
+
+  .pwave-color-item {
+    float: left;
+    padding-right: 2em;
+  }
+
+  .color-pallete {
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
   }
 }
