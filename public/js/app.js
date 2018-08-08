@@ -1,2 +1,11 @@
-var anchorJS = require('anchor-js');
-var anchors = new anchorJS();
+import Typography from '../typography.html'
+
+var app = new Vue({
+  el: '#app',
+  components: {
+    Typography
+  },
+  data: {
+    message: 'Hello Vue!'
+  }
+})

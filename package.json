@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "anchor-js": "^4.1.1",
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "vue": "^2.5.17"
   },
   "devDependencies": {
     "node-sass": "^4.9.2",

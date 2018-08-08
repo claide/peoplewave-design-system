@@ -333,6 +333,21 @@
 .bg-foreground {
   background: #272727; }
 
+.bg-white {
+  background: #FDFEFD; }
+
+.bg-foreground--lighten {
+  background: #5a5a5a; }
+
+.bg-foreground--lighten-2 {
+  background: #8d8d8d; }
+
+.bg-foreground--lighten-3 {
+  background: silver; }
+
+.bg-foreground--lighten-4 {
+  background: #f3f3f3; }
+
 body {
   font-size: 14px;
   color: #272727;
@@ -379,4 +394,5 @@ a {
   .pwave-color-container .color-pallete {
     height: 66px;
     width: 66px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: 1px solid #AAAAAA; }

@@ -13,3 +13,23 @@
 .bg-foreground {
   background: peoplewave-color('foreground');
 }
+
+.bg-white {
+  background: peoplewave-color('white');
+}
+
+.bg-foreground--lighten {
+  background: lighten(peoplewave-color('foreground'), 20%);
+}
+
+.bg-foreground--lighten-2 {
+  background: lighten(peoplewave-color('foreground'), 40%);
+}
+
+.bg-foreground--lighten-3 {
+  background: lighten(peoplewave-color('foreground'), 60%);
+}
+
+.bg-foreground--lighten-4 {
+  background: lighten(peoplewave-color('foreground'), 80%);
+}
