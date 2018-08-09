@@ -1,4 +1,4 @@
-# pwave-app-style-guide
+# Peoplewave Style Guide
 
 > A Vue.js project
 
