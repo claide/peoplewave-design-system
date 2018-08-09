@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
 @import "variables";
 @import "navbar";
 @import "buttons";
