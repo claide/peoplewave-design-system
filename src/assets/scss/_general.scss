@@ -60,6 +60,27 @@ a {
     height: 66px;
     width: 66px;
     border-radius: 50%;
-    border: 1px solid peoplewave-color('grey')
+    border: 1px solid peoplewave-color('grey');
+
+    @include respond-below(sm) {
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
+.side-nav {
+
+  .side-nav-item {
+    list-style-type: none;
+    padding: 10px 0;
+
+    a {
+      color: peoplewave-color('grey');
+
+      &:hover {
+        color: peoplewave-color('foreground');
+      }
+    }
   }
 }

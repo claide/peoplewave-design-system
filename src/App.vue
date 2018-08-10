@@ -9,7 +9,22 @@
           <div class="pwave-doc-section">
             <pw-typography></pw-typography>
             <pw-colours></pw-colours>
+            <pw-buttons></pw-buttons>
           </div>
+        </div>
+
+        <div class="col-md-3">
+          <ul class="side-nav hidden-sm hidden-xs pt-30">
+            <li class="side-nav-item">
+              <a href="#typography-and-texts">Typography &amp; texts</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="#colours">Colours</a>
+            </li>
+            <li class="side-nav-item">
+              <a href="#buttons-links">Buttons &amp; links</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -21,12 +36,13 @@
 import PwHeader from '../src/assets/components/PwHeader'
 import PwTypography from '../src/assets/components/PwTypography'
 import PwColours from '../src/assets/components/PwColours'
+import PwButtons from '../src/assets/components/PwButtons'
 import Anchorjs from 'anchor-js'
 
 export default {
   name: 'app',
   components: {
-    PwHeader, PwTypography, PwColours
+    PwHeader, PwTypography, PwColours, PwButtons
   },
   data () {
     return {
