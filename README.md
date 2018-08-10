@@ -1,5 +1,7 @@
 # Peoplewave Style Guide
 
+Current site: https://claide.github.io/peoplewave-design-system/
+
 > A Vue.js project
 
 ## Build Setup
