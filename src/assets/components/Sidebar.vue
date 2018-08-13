@@ -18,6 +18,12 @@
         :class="{ active: isActive('buttons') }"
       >Buttons &amp; links</a>
     </li>
+    <li class="side-nav-item">
+      <a href="#forms" v-smooth-scroll="{ duration: 1000, offset: -50 }"
+        @click="setActive('form')"
+        :class="{ active: isActive('form') }"
+      >Forms</a>
+    </li>
   </ul>
 </template>
 

@@ -10,6 +10,7 @@
             <pw-typography></pw-typography>
             <pw-colours></pw-colours>
             <pw-buttons></pw-buttons>
+            <pw-forms></pw-forms>
           </div>
         </div>
 
@@ -27,13 +28,14 @@ import PwHeader from '../src/assets/components/PwHeader'
 import PwTypography from '../src/assets/components/PwTypography'
 import PwColours from '../src/assets/components/PwColours'
 import PwButtons from '../src/assets/components/PwButtons'
+import PwForms from '../src/assets/components/PwForms'
 import Sidebar from '../src/assets/components/Sidebar'
 import Anchorjs from 'anchor-js'
 
 export default {
   name: 'app',
   components: {
-    PwHeader, PwTypography, PwColours, PwButtons, Sidebar
+    PwHeader, PwTypography, PwColours, PwButtons, PwForms, Sidebar
   },
   data () {
     return {

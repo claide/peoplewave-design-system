@@ -1,0 +1,51 @@
+.el-form-item__label {
+  color: peoplewave-color('foreground');
+}
+
+.el-input__inner {
+  &:focus {
+    border-color: peoplewave-color('primary');
+  }
+}
+
+.el-select .el-input.is-focus .el-input__inner,
+.el-select .el-input__inner:focus, .el-textarea__inner:focus {
+  border-color: peoplewave-color('primary');
+  outline: 0;
+}
+
+.el-select-dropdown__item.selected {
+  color: peoplewave-color('primary');
+  font-weight: 700;
+}
+
+
+.el-date-table td.current:not(.disabled) span {
+  color: peoplewave-color('white');
+  background-color: peoplewave-color('primary');
+}
+
+.el-date-table td.available:hover,
+.el-date-table td.today span,
+.el-date-picker__header-label.active,
+.el-date-picker__header-label:hover,
+.el-month-table td .cell:hover,
+.el-month-table td.current:not(.disabled)
+.cell,
+.el-picker-panel__icon-btn:hover,
+.el-time-panel__btn.confirm {
+  color: peoplewave-color('primary');
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner,
+.el-radio__input.is-checked .el-radio__inner {
+  background-color: peoplewave-color('primary');
+  border-color: peoplewave-color('primary');
+}
+
+.el-checkbox__input.is-checked+.el-checkbox__label,
+.el-radio__input.is-checked+.el-radio__label {
+  color: peoplewave-color('primary');
+}
+
