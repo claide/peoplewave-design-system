@@ -78,6 +78,10 @@ a {
     a {
       color: peoplewave-color('grey');
 
+      &.active {
+        color: peoplewave-color('foreground');
+      }
+
       &:hover {
         color: peoplewave-color('foreground');
       }

@@ -14,17 +14,7 @@
         </div>
 
         <div class="col-md-3">
-          <ul class="side-nav hidden-sm hidden-xs pt-30">
-            <li class="side-nav-item">
-              <a href="#typography-and-texts">Typography &amp; texts</a>
-            </li>
-            <li class="side-nav-item">
-              <a href="#colours">Colours</a>
-            </li>
-            <li class="side-nav-item">
-              <a href="#buttons-links">Buttons &amp; links</a>
-            </li>
-          </ul>
+          <sidebar></sidebar>
         </div>
       </div>
     </div>
@@ -37,12 +27,13 @@ import PwHeader from '../src/assets/components/PwHeader'
 import PwTypography from '../src/assets/components/PwTypography'
 import PwColours from '../src/assets/components/PwColours'
 import PwButtons from '../src/assets/components/PwButtons'
+import Sidebar from '../src/assets/components/Sidebar'
 import Anchorjs from 'anchor-js'
 
 export default {
   name: 'app',
   components: {
-    PwHeader, PwTypography, PwColours, PwButtons
+    PwHeader, PwTypography, PwColours, PwButtons, Sidebar
   },
   data () {
     return {
