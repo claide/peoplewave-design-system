@@ -11,6 +11,7 @@
             <pw-colours></pw-colours>
             <pw-buttons></pw-buttons>
             <pw-forms></pw-forms>
+            <pw-avatars></pw-avatars>
           </div>
         </div>
 
@@ -29,13 +30,14 @@ import PwTypography from '../src/assets/components/PwTypography'
 import PwColours from '../src/assets/components/PwColours'
 import PwButtons from '../src/assets/components/PwButtons'
 import PwForms from '../src/assets/components/PwForms'
+import PwAvatars from '../src/assets/components/PwAvatars'
 import Sidebar from '../src/assets/components/Sidebar'
 import Anchorjs from 'anchor-js'
 
 export default {
   name: 'app',
   components: {
-    PwHeader, PwTypography, PwColours, PwButtons, PwForms, Sidebar
+    PwHeader, PwTypography, PwColours, PwButtons, PwForms, PwAvatars, Sidebar
   },
   data () {
     return {

@@ -8,10 +8,21 @@
       <div class="col-md-9">
         <el-form ref="form" :model="form" label-width="120px">
           <el-form-item label="Activity name">
-            <el-input v-model="form.name"></el-input>
+            <el-input v-model="form.name" disabled
+              placeholder="Disabled state"
+            ></el-input>
+          </el-form-item>
+          <el-form-item label="Email">
+            <el-input v-model="form.email" v-validate="'required|email'" name="email"
+            ></el-input>
+            <span class="text-danger">{{ errors.first('email') }}</span>
           </el-form-item>
           <el-form-item label="Activity zone">
-            <el-select v-model="form.region" placeholder="please select your zone">
+            <el-select
+              v-model="form.region"
+              placeholder="please select your zone"
+              name="select"
+            >
               <el-option label="Zone one" value="shanghai"></el-option>
               <el-option label="Zone two" value="beijing"></el-option>
             </el-select>
@@ -32,8 +43,6 @@
             <el-checkbox-group v-model="form.type">
               <el-checkbox label="Online activities" name="type"></el-checkbox>
               <el-checkbox label="Promotion activities" name="type"></el-checkbox>
-              <el-checkbox label="Offline activities" name="type"></el-checkbox>
-              <el-checkbox label="Simple brand exposure" name="type"></el-checkbox>
             </el-checkbox-group>
           </el-form-item>
           <el-form-item label="Resources">
@@ -61,6 +70,7 @@
       return {
         form: {
           name: '',
+          email: '',
           region: '',
           date1: '',
           date2: '',
@@ -72,8 +82,8 @@
       }
     },
     methods: {
-      onSubmit() {
-        console.log('submit!');
+      onSubmit(formName) {
+        console.log('submit!')
       }
     }
   }

@@ -49,3 +49,26 @@
   color: peoplewave-color('primary');
 }
 
+.el-radio__inner, .el-checkbox__inner {
+
+  &:hover {
+    border-color: peoplewave-color('primary');
+  }
+}
+
+.el-radio__inner::after {
+  background-color: peoplewave-color('primary');
+  width: 8px;
+  height: 8px;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  background-color: peoplewave-color('white');
+  border-color: peoplewave-color('primary');
+}
+
+.el-checkbox__input.is-focus
+.el-checkbox__inner {
+  border-color: peoplewave-color('primary');
+}
+

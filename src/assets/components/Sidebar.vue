@@ -24,6 +24,12 @@
         :class="{ active: isActive('form') }"
       >Forms</a>
     </li>
+    <li class="side-nav-item">
+      <a href="#avatars" v-smooth-scroll="{ duration: 1000, offset: -50 }"
+        @click="setActive('avatars')"
+        :class="{ active: isActive('avatars') }"
+      >Avatars</a>
+    </li>
   </ul>
 </template>
 

@@ -70,6 +70,7 @@ a {
 }
 
 .side-nav {
+  position: fixed;
 
   .side-nav-item {
     list-style-type: none;
@@ -86,5 +87,12 @@ a {
         color: peoplewave-color('foreground');
       }
     }
+  }
+}
+
+[aria-invalid="true"] {
+
+  .el-input__inner {
+    border-color: peoplewave-color('danger');
   }
 }
