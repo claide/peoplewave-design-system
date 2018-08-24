@@ -1,3 +1,15 @@
 .avatar {
   border: 3px solid peoplewave-color('primary');
 }
+
+.pw-avatar__lg {
+  border: 5px solid peoplewave-color('primary');
+}
+
+.pw-avatar__md, .pw-avatar__sm  {
+  border: 3px solid peoplewave-color('primary');
+}
+
+.pw-avatar__xs {
+  border: 2px solid peoplewave-color('primary');
+}

@@ -1,0 +1,10 @@
+.table {
+  border-bottom: 1px solid lighten(peoplewave-color('foreground'), 20%);
+  margin-bottom: 10px;
+}
+
+.table>thead:first-child>tr:first-child>th {
+  border-top: 2px solid lighten(peoplewave-color('foreground'), 20%);
+  border-bottom: 2px solid lighten(peoplewave-color('foreground'), 20%);
+  color: lighten(peoplewave-color('foreground'), 20%);
+}

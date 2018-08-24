@@ -30,6 +30,12 @@
         :class="{ active: isActive('avatars') }"
       >Avatars</a>
     </li>
+    <li class="side-nav-item">
+      <a href="#tables" v-smooth-scroll="{ duration: 1000, offset: -50 }"
+        @click="setActive('tables')"
+        :class="{ active: isActive('tables') }"
+      >Tables</a>
+    </li>
   </ul>
 </template>
 

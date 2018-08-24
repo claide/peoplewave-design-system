@@ -2,8 +2,19 @@
   font-weight: bold;
 }
 
+.is-italic {
+  font-style: italic;
+}
+
 //  text and labels colours
+.text-grey {
+  color: peoplewave-color('grey');
+}
 
 .text-danger {
   color: peoplewave-color('danger');
+}
+
+.text-success {
+  color: peoplewave-color('success');
 }

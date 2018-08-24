@@ -1,0 +1,11 @@
+[{"id":1,"name":"Collette Clarycott","Job_title":"Financial Advisor","manager":"Brandy Dimbylow","review_status":"Completed"},
+{"id":2,"name":"Alayne McArd","Job_title":"Desktop Support Technician","manager":"Tresa Chaters","review_status":"Completed"},
+{"id":3,"name":"Shelbi Tallon","Job_title":"Director of Sales","manager":"Judah Ravel","review_status":"Completed"},
+{"id":4,"name":"Billie Cominoli","Job_title":"Graphic Designer","manager":"Reeva Henke","review_status":"Pending setup"},
+{"id":5,"name":"Tomi Roswarne","Job_title":"Chemical Engineer","manager":"Kamila Noke","review_status":"Completed"},
+{"id":6,"name":"Sella Gobert","Job_title":"Clinical Specialist","manager":"Opalina MacConnulty","review_status":"Completed"},
+{"id":7,"name":"Malia Oakes","Job_title":"Operator","manager":"Jude Sate","review_status":"Pending setup"},
+{"id":8,"name":"Lorrin Velden","Job_title":"Product Engineer","manager":"Celisse Hainge","review_status":"Completed"},
+{"id":9,"name":"Maxie Pratton","Job_title":"Office Assistant III","manager":"Terri-jo Rearie","review_status":"Pending setup"},
+{"id":10,"name":"Wylie Huntingford","Job_title":"Project Manager","manager":"Rickie Jostan","review_status":"Pending setup"}
+]

@@ -1,0 +1,14 @@
+a {
+  color: peoplewave-color('primary');
+  &:hover {
+    color: peoplewave-color('primary');
+    text-decoration: none;
+  }
+}
+
+[aria-invalid="true"] {
+
+  .el-input__inner {
+    border-color: peoplewave-color('danger');
+  }
+}
